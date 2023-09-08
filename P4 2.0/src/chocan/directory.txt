@@ -1,0 +1,3 @@
+888888, Therapy Session, $100
+598470, Dietitian Session, $50
+883948, Aerobics Session, $40

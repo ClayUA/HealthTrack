@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+
+
+
+<html>
+
+	<head>
+		<meta charset = “utf-8”>
+		<center><title>CS 200</title><center>
+	<style>
+		table {
+  			font-family: garamond;
+  			border-collapse: collapse;
+		}
+
+		td, th {
+  			border: 1px solid #FF8C00;
+  			text-align: right;
+  			padding: 10px;
+		}
+
+		tr:nth-child(even) {
+  			background-color: #FF8C00;
+		}
+		tr:nth-child(odd) {
+  			background-color: #000000;
+		}
+	</style>
+	</head>
+
+<center><h1>CS 200 Project 3 Design</h1><center>
+<center><h2>Team 7 | Submitter: Clay Truelove</h2><center>
+
+<h3 style="color::black">Header Table</h3>
+
+<table width=50%>
+	<tr>
+		<th style="color:#FF8C00">Name</th>
+		<th style="color:#FF8C00">CWID</th>
+		<th style="color:#FF8C00">Email</th>
+		<th style="color:#FF8C00">Hours Contributed</th>
+	</tr>
+	<tr>
+		<td width=25% style="color:black">Aniyah Curry</td>
+		<td style="color:black">12020726</td>
+		<td style="color:black">ascurry@crimson.ua.edu</td>
+		<td style="color:black">4</td>
+	</tr>
+	<tr>
+		<td style="color:#FF8C00">Mason Berger</td>
+		<td style="color:#FF8C00">12040884</td>
+		<td style="color:#FF8C00">mzberger@crimson.ua.edu</td>
+		<td style="color:#FF8C00">4</td>
+	</tr>
+	<tr>
+		<td style="color:black">Austin Hanners</td>
+		<td style="color:black">???</td>
+		<td style="color:black">adhanners@crimson.ua.edu</td>
+		<td style="color:black">0</td>
+	</tr>
+	<tr>
+		<td style="color:#FF8C00">Chandler Norman</td>
+		<td style="color:#FF8C00">12031331</td>
+		<td style="color:#FF8C00">cbnorman@crimson.ua.edu</td>
+		<td style="color:#FF8C00">4</td>
+	</tr>
+	<tr>
+		<td style="color:"black">Alex Seidel</td>
+		<td style="color:"black">12143990</td>
+		<td style="color:"black">erseidel@crimson.ua.edu</td>
+		<td style="color:"black">4</td>
+	</tr>
+	<tr>
+		<td style="color:#FF8C00">Clay Truelove</td>
+		<td style="color:#FF8C00">11695253</td>
+		<td style="color:#FF8C00">nctruelove@crimson.ua.edu</td>
+		<td style="color:#FF8C00">4</td>
+	</tr>
+</table>
+
+<h3 style="color:"black">Task Distribution Table</h3>
+
+<table width=50%>
+	<tr>
+		<th style="color:#FF8C00">Name</th>
+		<th style="color:#FF8C00">Task</th>
+		<th style ="color:#FF8C00">% Complete</th>
+	</tr>
+	<tr>
+		<td width=25% style="color:black">Aniyah Curry</td>
+		<td width=60% style="color:black">Class Diagram, Sequence Diagrams</td>
+		<td width=15% style="color:black">20%</td>
+	</tr>
+	<tr>
+		<td style ="color:#FF8C00">Mason Berger</td>
+		<td style ="color:#FF8C00">Sequence Diagrams, Paragraph for report</td>
+		<td style ="color:#FF8C00">20%</td>
+	</tr>
+	<tr>
+		<td style="color:black">Austin Hanners</td>
+		<td style="color:black">MIA</td>
+		<td style="color:black">0%</td>
+	</tr>
+	<tr>
+		<td style ="color:#FF8C00">Chandler Norman</td>
+		<td style ="color:#FF8C00">Sequence Diagrams</td>
+		<td style ="color:#FF8C00">20%</td>
+	</tr>
+	<tr>
+		<td style="color:black">Alex Seidel</td>
+		<td style="color:black">Sequence Diagrams</td>
+		<td style="color:black">20%</td>
+	</tr>
+	<tr>
+		<td style ="color:#FF8C00">Clay Truelove</td>
+		<td style ="color:#FF8C00">Sequence Diagrams, Report</td>
+		<td style ="color:#FF8C00">20%</td>
+		
+	</tr>
+</table>
+
+
+<center><h3 style="color:#000000">Paragraph</h3><center>
+<center><p> For this project we had to address the issues of coupling and cohesion throughout our diagrams. Throughout most of the diagram we used cohesion to solve the majority of our problems. For example, report accesses: member report, provider report, summary report, and EFT report. All of those classes are not accessed by any other class in the Class. We performed similar cohesion for Main Menu and Record. We also used coupling so solve a few of our issues regarding User. We used tight coupling for User, Card, Record, and Report by letting them all access, Manager, Operator, and Provider. Our ChocAn Computer also is an example of coupling because it's used for Card, Terminal, and Timer. One main reason why our solution to this problem is good is that it not only addresses the issue of classes interacting with each other, it is done in an organized and efficient manner.<p><center>
+
+<center><h3 style="color:"black">ChocAn Class Diagram</h3><center>
+
+<center><iframe src="Project3Class.png" width="1200px" height="1000px"></iframe></center>
+
+<center><h3 style="color:#FF8C00">Edit Member Sequence Diagram</h3><center>
+<center><iframe src="EditMemberSequence.png" width="700px" height="600px"></iframe></center>
+
+<center><h3 style="color:"black">Edit Provider Sequence Diagram</h3><center>
+<center><iframe src="EditProviderSequence.png" width="700px" height="600px"></iframe></center>
+
+<center><h3 style="color:#FF8C00">Billing Sequence Diagram</h3><center>
+<center><iframe src="SeqBilling.png" width="900px" height="610px"></iframe></center>
+
+<center><h3 style="color:#000000">Main Accounting Procedure Sequence Diagram</h3><center>
+<center><iframe src="MainAccountingProcSeq.png" width="750px" height="525px"></iframe></center>
+
+<center><h3 style="color:#FF8C00">Summary Report Sequence Diagram</h3><center>
+<center><iframe src="ReportSummary.png" width="700px" height="525px"></iframe></center>
+
+<center><h3 style="color:#000000">Verify Provider Sequence Diagram</h3><center>
+<center><iframe src="verifyProviderSequence.png" width="580px" height="900px"></iframe></center>
+
+
+<center><h3 style="color:#FF8C00">Verify Member Sequence Diagram</h3><center>
+<center><iframe src="verifyMemberSequence.png" width="960px" height="860px"></iframe></center>
+
+<center><h3 style="color:#000000">Request Software Product Sequence Diagram</h3><center>
+<center><iframe src="requestSoftwareSequence.png" width="580px" height="925px"></iframe></center>
+
+<center><h3 style="color:#FF8C00">Service Code Lookup Sequence Diagram</h3><center>
+<center><iframe src="ServLookup.png" width="450px" height="550px"></iframe></center>
+
+<center><h3 style="color:#000000">Verify Manager Sequence Diagram</h3><center>
+<center><iframe src="verifyMan.png" width="620px" height="580px"></iframe></center>
+
+
+<center><h3 style="color:#FF8C00">Request Report Sequence Diagram</h3><center>
+<center><iframe src="RequestRep.png" width="700px" height="590px"></iframe></center>
+
+<center><h2 style="color:#FF8C00">Bitbucket Statistics</h2><center>
+<center><iframe src="Clay.png" width="700px" height="925px"></iframe></center>
+<center><iframe src="Mason.png" width="700px" height="240px"></iframe></center>
+<center><iframe src="Chandler.png" width="700px" height="175px"></iframe></center>
+<center><iframe src="Alex.png" width="700px" height="345px"></iframe></center>
+<center><iframe src="Aniyah.png" width="700px" height="950px"></iframe></center>
+
+</html>

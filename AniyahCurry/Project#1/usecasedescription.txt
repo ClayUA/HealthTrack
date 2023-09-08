@@ -1,0 +1,17 @@
+Aniyah Curry
+Team 7
+Use Case Description
+Use case: Access Directory
+Context: Use the directory to verify the relevant service code for the billing process.
+Actors: Healthcare Provider
+Main Success Scenario:
+1.	The provider opens the directory and keys in a service code.
+2.	The software product displays the name of the service that corresponds to the code if correctly looked up.
+3.	The provider verifies the service.
+4.	The software product writes a record to disk with information about the chosen service.
+    4.1.	 Software product stores a file onto the system.
+5.	The software product retrieves the corresponding fee for the service that must be billed.
+Extensions: 
+2a.	The provider enters a nonexistent code.
+    2a.1.	The software product displays an error message.
+    2a.2.	The use case continues at step 1.

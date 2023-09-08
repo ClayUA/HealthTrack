@@ -1,0 +1,13 @@
+Alex Seidel
+Team 7
+Project #1 Glossary Terms
+1. ChocAn: An organization meant to help and support people with an addiction to chocolate. 
+2. Member: A person who pays a monthly fee to utilize ChocAn's resources.
+3. Card: Every member has a card that has their name and member number. 
+4. Provider: A health care professional that provides service to ChocAn members.
+5. Terminal: The device used by the providers to access the ChocAn Data Center.
+6. Data Center: The place where member information is stored and retrieved from. 
+7. Accounting Procedure: Runs weekly and provides reports of the services provided in the past 7 days.
+8. Provider Directory: Stores providers by associating them with a 6-digit code.
+9. Acme Accounting Services: Handles the processing of membership fees. 
+10. Interactive Mode: Allows for addition, deletion, and modification to member and provider records. 

@@ -1,0 +1,13 @@
+Aniyah Curry
+Team 7
+Project #1 Glossary Terms
+1.	ChocAn Member: requests and receives health services from ChocAn
+2.	ChocAn Manager: can run individual reports on members and providers
+3.	ChocAn Operator: can make changes to the ChocAn Data Center
+4.	Healthcare Provider: can bill ChocAn, help members receive health care services, and request software product
+5.	Receive Health Services: members obtain assistance from provider after handing them a card which has a member number encoded on it
+6.	Billing ChocAn: provider swipes member card and a bill for ChocAn is generated
+7.	Request Software Product: provider requests an alphabetically ordered list of service names with corresponding service codes and fees which is sent as an email attachment
+8.	Service Code Lookup: verifies the relevant service code for billing process
+9.	Run Individual Report: manager requests and individual report for a member or provider which is then printed
+10.	Interactive Mode: allows operator to make changes to ChocAn Data Center; add or remove member(s)/provider(s), update info for member(s)/provider(s)
